@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fil-rouge"
+version = "0.1.0"
+description = "Electric circuit diagrams as SVG, in French textbook conventions (schemdraw + LaTeX labels)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Morgan Pierrefeu" }]
+requires-python = ">=3.9"
+dependencies = ["schemdraw>=0.19", "ziamath>=0.11"]
+
+[project.urls]
+Homepage = "https://github.com/evaspace/fil-rouge"
+
+[tool.setuptools]
+packages = ["filrouge"]
